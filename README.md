@@ -1,6 +1,9 @@
 ## 🚀 Flight Reservation Management System
 This project is a Flight Reservation Management System developed using Java and Spring Framework. It demonstrates object-oriented programming principles like inheritance, associations between classes, and encapsulation. The system handles different components of a flight reservation application, including flight lists, reservations, passenger details, seat assignments, and ticket classes.
 
+![image](https://github.com/user-attachments/assets/366161c5-b45b-4677-a13f-56410e3db155)
+
+
 ## 📝 Project Features
 Flight Management: Manage flight lists and details efficiently.
 Reservation System: Handle passenger reservations and manage seating arrangements.
