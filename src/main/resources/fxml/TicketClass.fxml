@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.pja.mas.s24413.poprawa_projekt.fxControllers.TicketClassController" stylesheets="@style.css">
+    <!-- Main content -->
+    <VBox alignment="CENTER" spacing="20" AnchorPane.bottomAnchor="20" AnchorPane.leftAnchor="100" AnchorPane.rightAnchor="100" AnchorPane.topAnchor="100">
+        <Label text="Choose ticket class:" styleClass="heading-label" />
+
+        <VBox spacing="50" alignment="CENTER">
+            <Button fx:id="businessButton" text="Business" onAction="#handleBusinessClassSelection" styleClass="custom-button" />
+            <Button fx:id="normalButton" text="Normal" onAction="#handleNormalClassSelection" styleClass="custom-button" />
+            <Button fx:id="vipButton" text="VIP" onAction="#handleVIPClassSelection" styleClass="custom-button" />
+        </VBox>
+        <Region minHeight="30.0" />
+        <HBox spacing="50" alignment="CENTER">
+            <Button fx:id="backButton" text="Back" onAction="#handleBackButtonAction3" styleClass="custom-button" />
+            <Button fx:id="saveButton" text="Save reservation" onAction="#handleSaveButtonAction" styleClass="custom-button" />
+        </HBox>
+    </VBox>
+</AnchorPane>

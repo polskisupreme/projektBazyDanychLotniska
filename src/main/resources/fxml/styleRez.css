@@ -1,0 +1,49 @@
+/* style.css */
+.root {
+    -fx-background-color: #333333; /* Dark grey background */
+    -fx-font-family: "Arial"; /* Standard font for better compatibility */
+}
+
+.heading-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+}
+
+.custom-button {
+    -fx-background-color: #ffffff; /* White for buttons */
+    -fx-text-fill: #000000; /* Black text color */
+    -fx-font-size: 18px;
+    -fx-font-weight: BOLD;
+    -fx-padding: 10 20 10 20; /* Top Right Bottom Left padding */
+    -fx-background-radius: 15; /* Rounded corners */
+    -fx-border: none; /* No border */
+    -fx-min-width: 200px; /* Minimum width to align all buttons */
+    -fx-min-height: 50px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 8, 0, 0, 4); /* Subtle drop shadow */
+    -fx-transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+.custom-button:hover {
+    -fx-background-color: #ecd7d7; /* Lighter grey for hover effect */
+    -fx-cursor: hand; /* Change cursor to hand */
+    -fx-transform: scale(1.05); /* Slightly enlarge the button */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.35), 12, 0, 0, 6); /* Stronger drop shadow on hover */
+    -fx-text-fill: #333333; /* Dark grey text color on hover */
+}
+
+.reservation-box {
+    -fx-padding: 10;
+    -fx-background-color: #333333;
+    -fx-background-radius: 5;
+    -fx-font-size: 12px;
+    -fx-spacing: 5;
+}
+
+
+.textA {
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: BOLD;
+}
+.textB {
+    -fx-text-fill: #ffffff;
+}

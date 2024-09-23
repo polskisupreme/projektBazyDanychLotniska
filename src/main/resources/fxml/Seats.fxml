@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.pja.mas.s24413.poprawa_projekt.fxControllers.SeatsListController">
+    <children>
+        <VBox alignment="CENTER" layoutX="100" layoutY="50" spacing="20" AnchorPane.bottomAnchor="20" AnchorPane.leftAnchor="100" AnchorPane.rightAnchor="100" AnchorPane.topAnchor="50">
+            <Label text="List of available seats choose (one):" styleClass="heading-label"/>
+            <ListView fx:id="flightListView" prefWidth="480.0" prefHeight="500.0" />
+            <HBox spacing="50" alignment="CENTER">
+                <Button fx:id="backButton" text="Back" styleClass="custom-button" onAction="#handleBackButtonAction2" minWidth="100" />
+                <Button fx:id="continueButton" text="Continue" styleClass="custom-button" onAction="#handleContinueButtonAction2" minWidth="100" />
+            </HBox>
+
+        </VBox>
+    </children>
+</AnchorPane>

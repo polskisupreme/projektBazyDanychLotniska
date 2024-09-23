@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.pja.mas.s24413.poprawa_projekt.fxControllers.HelloController">
+   <children>
+      <VBox layoutX="275.0" layoutY="50.0" spacing="40" alignment="CENTER" prefWidth="260.0">
+
+         <Text text="WIIZFREE" styleClass="title-text"/>
+         <Text text="BEST EXPERIENCE EVER" styleClass="subtitle-text"/>
+
+         <Region minHeight="30.0" /> <!-- Spacer with 30px height -->
+
+         <Button fx:id="reserveButton" text="Reserve Flight" styleClass="custom-button" minWidth="200" onAction="#handleReserveButtonAction" />
+         <Button fx:id="reservationButton" text="Reservation" styleClass="custom-button" minWidth="200" onAction="#handleReservationButtonAction" />
+         <Button fx:id="quitButton" text="QUIT" styleClass="custom-button" minWidth="200" onAction="#handleQuitButtonAction" />
+
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" stylesheets="@styleRez.css" fx:controller="edu.pja.mas.s24413.poprawa_projekt.fxControllers.PasazerDetailsController"
+      spacing="10" alignment="CENTER">
+    <Label text="Dane Pasazera: " styleClass="heading-label" />
+
+    <Region minHeight="30.0" />
+
+    <Label styleClass="textA"  text="Imię:" />
+    <Label styleClass="textB" fx:id="imieLabel" text="-" />
+
+    <Label styleClass="textA" text="Nazwisko:" />
+    <Label styleClass="textB" fx:id="nazwiskoLabel" text="-" />
+
+    <Label styleClass="textA" text="Numer PESEL:" />
+    <Label styleClass="textB" fx:id="numerPeselLabel" text="-" />
+
+    <Region minHeight="30.0" />
+
+    <Button text="Back" fx:id="backButton" styleClass="custom-button" onAction="#handleBackButtonAction"/>
+
+</VBox>
